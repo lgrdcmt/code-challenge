@@ -1,0 +1,8 @@
+.venv
+.python-version
+.env
+dag_id=*
+*.log
+__pycache__
+.DS_Store
+dbdata
