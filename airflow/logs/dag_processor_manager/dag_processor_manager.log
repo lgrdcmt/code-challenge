@@ -17674,3 +17674,768 @@ File Path                            PID  Runtime      # DAGs    # Errors  Last 
 /opt/airflow/dags/primeira_dag.py                           1           0  0.07s           2025-01-31T15:17:34                      10
 /opt/airflow/dags/segunda_dag.py     848  0.00s             1           0  0.06s           2025-01-31T15:17:34                      10
 ================================================================================
+[2025-01-31T15:17:54.336+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:17:54.349+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:18:09.608+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/quarta_dag.py                             1           0  0.20s           2025-01-31T15:18:06                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.17s           2025-01-31T15:18:06                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.05s           2025-01-31T15:18:06                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.05s           2025-01-31T15:18:06                      10
+================================================================================
+[2025-01-31T15:18:15.036+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:18:15.048+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:18:35.284+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:18:35.295+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:18:39.661+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/quarta_dag.py                             1           0  0.19s           2025-01-31T15:18:38                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.17s           2025-01-31T15:18:38                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.07s           2025-01-31T15:18:38                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.05s           2025-01-31T15:18:38                      10
+================================================================================
+[2025-01-31T15:18:56.003+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:18:56.013+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:19:09.809+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/quarta_dag.py                             1           0  0.21s           2025-01-31T15:19:05                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.16s           2025-01-31T15:19:05                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.05s           2025-01-31T15:19:05                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.04s           2025-01-31T15:19:05                      10
+================================================================================
+[2025-01-31T15:19:16.415+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:19:16.433+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:19:36.776+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:19:36.797+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:19:40.082+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/quarta_dag.py                             1           0  0.17s           2025-01-31T15:19:37                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.15s           2025-01-31T15:19:38                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.05s           2025-01-31T15:19:38                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.05s           2025-01-31T15:19:38                      10
+================================================================================
+[2025-01-31T15:19:57.145+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:19:57.152+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:20:10.104+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/quarta_dag.py                             1           0  0.15s           2025-01-31T15:20:10                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.15s           2025-01-31T15:20:10                      10
+/opt/airflow/dags/primeira_dag.py    991  0.00s             1           0  0.06s           2025-01-31T15:20:04                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.05s           2025-01-31T15:20:10                      10
+================================================================================
+[2025-01-31T15:20:17.455+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:20:17.462+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:20:37.773+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:20:37.785+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:20:40.856+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/quarta_dag.py                             1           0  0.21s           2025-01-31T15:20:36                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.16s           2025-01-31T15:20:36                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.07s           2025-01-31T15:20:36                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.05s           2025-01-31T15:20:36                      10
+================================================================================
+[2025-01-31T15:20:57.827+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:20:57.852+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:21:10.860+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/quarta_dag.py                             1           0  0.22s           2025-01-31T15:21:08                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.16s           2025-01-31T15:21:08                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.08s           2025-01-31T15:21:08                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.07s           2025-01-31T15:21:08                      10
+================================================================================
+[2025-01-31T15:21:18.188+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:21:18.206+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:21:38.441+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:21:38.465+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:21:41.742+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/quarta_dag.py                             1           0  0.17s           2025-01-31T15:21:40                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.13s           2025-01-31T15:21:40                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.06s           2025-01-31T15:21:40                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.06s           2025-01-31T15:21:40                      10
+================================================================================
+[2025-01-31T15:21:58.989+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:21:59.000+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:22:12.641+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/quarta_dag.py     1104  0.03s             1           0  0.10s           2025-01-31T15:22:07                      10
+/opt/airflow/dags/terceira_dag.py   1105  0.01s             1           0  0.09s           2025-01-31T15:22:07                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.06s           2025-01-31T15:22:07                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.05s           2025-01-31T15:22:07                      10
+================================================================================
+[2025-01-31T15:22:19.121+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:22:19.126+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:22:39.438+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:22:39.452+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:22:42.970+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/segunda_dag.py                            1           0  0.32s           2025-01-31T15:22:39                      10
+/opt/airflow/dags/quarta_dag.py                             1           0  0.14s           2025-01-31T15:22:39                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.12s           2025-01-31T15:22:39                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.07s           2025-01-31T15:22:40                      10
+================================================================================
+[2025-01-31T15:22:59.873+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:22:59.890+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:23:13.114+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/quarta_dag.py                             1           0  0.48s           2025-01-31T15:23:13                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.45s           2025-01-31T15:23:13                      10
+/opt/airflow/dags/segunda_dag.py    1162  0.00s             1           0  0.28s           2025-01-31T15:23:07                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.06s           2025-01-31T15:23:07                      10
+================================================================================
+[2025-01-31T15:23:20.616+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:23:20.628+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:23:41.071+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:23:41.088+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:23:43.133+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/quarta_dag.py                             1           0  0.22s           2025-01-31T15:23:40                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.17s           2025-01-31T15:23:40                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.05s           2025-01-31T15:23:40                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.05s           2025-01-31T15:23:40                      10
+================================================================================
+[2025-01-31T15:24:01.715+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:24:01.726+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:24:15.125+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/quarta_dag.py                             1           0  3.11s           2025-01-31T15:24:10                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  3.05s           2025-01-31T15:24:10                      10
+/opt/airflow/dags/segunda_dag.py    1214  4.49s             1           0  0.42s           2025-01-31T15:24:04                      10
+/opt/airflow/dags/primeira_dag.py   1215  3.81s             1           0  0.36s           2025-01-31T15:24:04                      10
+================================================================================
+[2025-01-31T15:24:22.469+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:24:22.522+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:24:43.186+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:24:43.246+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:24:45.458+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/quarta_dag.py                             1           0  0.85s           2025-01-31T15:24:44                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.76s           2025-01-31T15:24:45                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.68s           2025-01-31T15:24:44                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.48s           2025-01-31T15:24:45                      10
+================================================================================
+[2025-01-31T15:25:05.058+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:25:06.282+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:25:15.487+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/segunda_dag.py    1264  0.00s             1           0  0.30s           2025-01-31T15:25:10                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.21s           2025-01-31T15:25:10                      10
+/opt/airflow/dags/quarta_dag.py                             1           0  0.18s           2025-01-31T15:25:15                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.16s           2025-01-31T15:25:15                      10
+================================================================================
+[2025-01-31T15:25:26.004+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:25:26.024+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:25:46.408+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:25:46.430+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:25:46.456+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/quarta_dag.py                             1           0  0.23s           2025-01-31T15:25:42                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.20s           2025-01-31T15:25:42                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.06s           2025-01-31T15:25:42                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.06s           2025-01-31T15:25:42                      10
+================================================================================
+[2025-01-31T15:26:06.876+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:26:06.892+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:26:16.889+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/quarta_dag.py                             1           0  0.24s           2025-01-31T15:26:14                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.19s           2025-01-31T15:26:14                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.06s           2025-01-31T15:26:14                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.05s           2025-01-31T15:26:14                      10
+================================================================================
+[2025-01-31T15:26:27.565+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:26:27.574+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:26:46.900+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/quarta_dag.py                             1           0  0.25s           2025-01-31T15:26:46                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.20s           2025-01-31T15:26:46                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.06s           2025-01-31T15:26:41                      10
+/opt/airflow/dags/segunda_dag.py    1350  0.00s             1           0  0.06s           2025-01-31T15:26:41                      10
+================================================================================
+[2025-01-31T15:26:47.964+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:26:47.970+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:27:08.330+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:27:08.347+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:27:17.094+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/quarta_dag.py                             1           0  0.22s           2025-01-31T15:27:13                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.18s           2025-01-31T15:27:13                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.18s           2025-01-31T15:27:14                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.09s           2025-01-31T15:27:14                      10
+================================================================================
+[2025-01-31T15:27:28.877+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:27:28.901+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:27:47.524+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/quarta_dag.py                             1           0  0.26s           2025-01-31T15:27:46                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.22s           2025-01-31T15:27:46                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.09s           2025-01-31T15:27:46                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.07s           2025-01-31T15:27:46                      10
+================================================================================
+[2025-01-31T15:27:49.560+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:27:49.577+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:28:10.291+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:28:10.310+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:28:17.736+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/quarta_dag.py                             1           0  0.21s           2025-01-31T15:28:13                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.18s           2025-01-31T15:28:13                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.06s           2025-01-31T15:28:13                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.06s           2025-01-31T15:28:13                      10
+================================================================================
+[2025-01-31T15:28:30.365+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:28:30.575+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:28:47.966+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/primeira_dag.py                           1           0  0.26s           2025-01-31T15:28:46                      10
+/opt/airflow/dags/quarta_dag.py                             1           0  0.24s           2025-01-31T15:28:46                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.23s           2025-01-31T15:28:46                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.06s           2025-01-31T15:28:46                      10
+================================================================================
+[2025-01-31T15:28:50.812+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:28:50.823+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:29:10.890+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:29:10.912+0000] {manager.py:824} INFO - There are 4 files in /opt/airflow/dags
+[2025-01-31T15:29:18.353+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/quarta_dag.py                             1           0  0.21s           2025-01-31T15:29:14                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.17s           2025-01-31T15:29:14                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.07s           2025-01-31T15:29:14                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.06s           2025-01-31T15:29:14                      10
+================================================================================
+[2025-01-31T15:29:19.362+0000] {manager.py:1291} WARNING - Skipping processing of missing file: /opt/airflow/dags/terceira_dag.py
+[2025-01-31T15:29:31.219+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:29:31.228+0000] {manager.py:824} INFO - There are 5 files in /opt/airflow/dags
+[2025-01-31T15:29:49.440+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/quarta_dag.py                             1           0  0.20s           2025-01-31T15:29:47                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.15s           2025-01-31T15:29:47                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.12s           2025-01-31T15:29:44                       9
+/opt/airflow/dags/triggerDag1.py                            1           0  0.08s           2025-01-31T15:29:48                       9
+/opt/airflow/dags/primeira_dag.py                           1           0  0.07s           2025-01-31T15:29:47                      10
+================================================================================
+[2025-01-31T15:29:51.878+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:29:51.889+0000] {manager.py:824} INFO - There are 5 files in /opt/airflow/dags
+[2025-01-31T15:30:11.992+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:30:12.007+0000] {manager.py:824} INFO - There are 5 files in /opt/airflow/dags
+[2025-01-31T15:30:19.921+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/terceira_dag.py   1553  0.03s             1           0  0.24s           2025-01-31T15:30:14                      10
+/opt/airflow/dags/triggerDag1.py                            1           0  0.19s           2025-01-31T15:30:16                      10
+/opt/airflow/dags/quarta_dag.py                             1           0  0.17s           2025-01-31T15:30:15                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.16s           2025-01-31T15:30:16                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.13s           2025-01-31T15:30:15                      10
+================================================================================
+[2025-01-31T15:30:32.074+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:30:32.336+0000] {manager.py:824} INFO - There are 5 files in /opt/airflow/dags
+[2025-01-31T15:30:50.018+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/terceira_dag.py                           1           0  0.23s           2025-01-31T15:30:47                      10
+/opt/airflow/dags/quarta_dag.py                             1           0  0.17s           2025-01-31T15:30:48                      10
+/opt/airflow/dags/triggerDag1.py                            1           0  0.15s           2025-01-31T15:30:50                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.15s           2025-01-31T15:30:48                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.14s           2025-01-31T15:30:50                      10
+================================================================================
+[2025-01-31T15:30:52.938+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:30:52.956+0000] {manager.py:824} INFO - There are 5 files in /opt/airflow/dags
+[2025-01-31T15:31:13.773+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:31:13.792+0000] {manager.py:824} INFO - There are 5 files in /opt/airflow/dags
+[2025-01-31T15:31:20.427+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/terceira_dag.py                           1           0  0.22s           2025-01-31T15:31:16                       9
+/opt/airflow/dags/primeira_dag.py                           1           0  0.21s           2025-01-31T15:31:17                      10
+/opt/airflow/dags/quarta_dag.py                             1           0  0.19s           2025-01-31T15:31:16                      10
+/opt/airflow/dags/triggerDag1.py                            1           0  0.12s           2025-01-31T15:31:17                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.09s           2025-01-31T15:31:16                      10
+================================================================================
+[2025-01-31T15:31:34.072+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:31:34.294+0000] {manager.py:824} INFO - There are 5 files in /opt/airflow/dags
+[2025-01-31T15:31:50.566+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/triggerDag1.py    1653  0.05s             1           0  0.15s           2025-01-31T15:31:45                       9
+/opt/airflow/dags/quarta_dag.py                             1           0  0.15s           2025-01-31T15:31:45                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.11s           2025-01-31T15:31:45                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.11s           2025-01-31T15:31:45                      10
+/opt/airflow/dags/terceira_dag.py   1654  0.01s             1           0  0.04s           2025-01-31T15:31:45                       9
+================================================================================
+[2025-01-31T15:31:54.153+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:31:54.207+0000] {manager.py:824} INFO - There are 5 files in /opt/airflow/dags
+[2025-01-31T15:32:15.094+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:32:15.151+0000] {manager.py:824} INFO - There are 5 files in /opt/airflow/dags
+[2025-01-31T15:32:20.632+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/triggerDag1.py                            1           0  0.15s           2025-01-31T15:32:18                       9
+/opt/airflow/dags/terceira_dag.py                           1           0  0.12s           2025-01-31T15:32:18                       9
+/opt/airflow/dags/segunda_dag.py                            1           0  0.10s           2025-01-31T15:32:19                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.09s           2025-01-31T15:32:19                      10
+/opt/airflow/dags/quarta_dag.py                             1           0  0.06s           2025-01-31T15:32:18                      10
+================================================================================
+[2025-01-31T15:32:35.869+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:32:35.881+0000] {manager.py:824} INFO - There are 5 files in /opt/airflow/dags
+[2025-01-31T15:32:37.990+0000] {manager.py:1291} WARNING - Skipping processing of missing file: /opt/airflow/dags/terceira_dag.py
+[2025-01-31T15:32:50.730+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/triggerDag1.py    1718  0.14s             1           0  0.18s           2025-01-31T15:32:45                      10
+/opt/airflow/dags/quarta_dag.py                             1           0  0.12s           2025-01-31T15:32:50                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.08s           2025-01-31T15:32:46                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.08s           2025-01-31T15:32:46                      10
+================================================================================
+[2025-01-31T15:32:55.912+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:32:55.925+0000] {manager.py:824} INFO - There are 5 files in /opt/airflow/dags
+[2025-01-31T15:32:57.031+0000] {manager.py:1291} WARNING - Skipping processing of missing file: /opt/airflow/dags/triggerDag1.py
+[2025-01-31T15:33:03.568+0000] {manager.py:1291} WARNING - Skipping processing of missing file: /opt/airflow/dags/terceira_dag 1.py
+[2025-01-31T15:33:16.166+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:33:16.181+0000] {manager.py:824} INFO - There are 5 files in /opt/airflow/dags
+[2025-01-31T15:33:16.862+0000] {manager.py:1146} ERROR - Processor for /opt/airflow/dags/terceira_dag.py exited with return code 1.
+[2025-01-31T15:33:20.739+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/terceira_dag.py                           0          -1  0.65s           2025-01-31T15:33:16                       0
+/opt/airflow/dags/triggerdag1.py                            1           0  0.23s           2025-01-31T15:33:16                      32
+/opt/airflow/dags/segunda_dag.py                            1           0  0.18s           2025-01-31T15:33:18                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.17s           2025-01-31T15:33:18                      10
+/opt/airflow/dags/quarta_dag.py                             1           0  0.12s           2025-01-31T15:33:17                      10
+================================================================================
+[2025-01-31T15:33:36.313+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:33:36.330+0000] {manager.py:824} INFO - There are 5 files in /opt/airflow/dags
+[2025-01-31T15:33:51.484+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/terceira_dag.py                           1           0  0.26s           2025-01-31T15:33:50                      32
+/opt/airflow/dags/segunda_dag.py    1782  0.02s             1           0  0.18s           2025-01-31T15:33:46                      10
+/opt/airflow/dags/primeira_dag.py   1783  0.01s             1           0  0.15s           2025-01-31T15:33:46                      10
+/opt/airflow/dags/quarta_dag.py                             1           0  0.13s           2025-01-31T15:33:50                      10
+/opt/airflow/dags/triggerdag1.py                            1           0  0.11s           2025-01-31T15:33:48                       9
+================================================================================
+[2025-01-31T15:33:57.023+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:33:57.030+0000] {manager.py:824} INFO - There are 5 files in /opt/airflow/dags
+[2025-01-31T15:34:17.912+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:34:17.927+0000] {manager.py:824} INFO - There are 5 files in /opt/airflow/dags
+[2025-01-31T15:34:21.560+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/terceira_dag.py                           1           0  0.21s           2025-01-31T15:34:18                       9
+/opt/airflow/dags/quarta_dag.py                             1           0  0.19s           2025-01-31T15:34:18                      10
+/opt/airflow/dags/triggerdag1.py                            1           0  0.17s           2025-01-31T15:34:21                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.10s           2025-01-31T15:34:19                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.10s           2025-01-31T15:34:19                      10
+================================================================================
+[2025-01-31T15:34:38.477+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:34:38.487+0000] {manager.py:824} INFO - There are 5 files in /opt/airflow/dags
+[2025-01-31T15:34:52.454+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/triggerdag1.py                            1           0  0.16s           2025-01-31T15:34:48                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.14s           2025-01-31T15:34:50                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.13s           2025-01-31T15:34:51                      10
+/opt/airflow/dags/quarta_dag.py                             1           0  0.12s           2025-01-31T15:34:50                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.11s           2025-01-31T15:34:51                      10
+================================================================================
+[2025-01-31T15:34:58.715+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:34:58.739+0000] {manager.py:824} INFO - There are 5 files in /opt/airflow/dags
+[2025-01-31T15:35:19.586+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:35:19.599+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2025-01-31T15:35:23.403+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/triggerdag1 copy.py                           1           0  0.57s           2025-01-31T15:35:20                      32
+/opt/airflow/dags/terceira_dag.py       1888  0.05s             1           0  0.30s           2025-01-31T15:35:17                      10
+/opt/airflow/dags/segunda_dag.py                                1           0  0.29s           2025-01-31T15:35:18                      10
+/opt/airflow/dags/quarta_dag.py         1889  0.00s             1           0  0.25s           2025-01-31T15:35:17                      10
+/opt/airflow/dags/primeira_dag.py                               1           0  0.25s           2025-01-31T15:35:18                      10
+/opt/airflow/dags/triggerdag1.py                                1           0  0.13s           2025-01-31T15:35:20                       9
+================================================================================
+[2025-01-31T15:35:24.439+0000] {manager.py:1291} WARNING - Skipping processing of missing file: /opt/airflow/dags/triggerdag1 copy.py
+[2025-01-31T15:35:39.741+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:35:39.765+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2025-01-31T15:35:53.981+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/triggerdag2.py                            1           0  0.26s           2025-01-31T15:35:52                       9
+/opt/airflow/dags/segunda_dag.py                            1           0  0.26s           2025-01-31T15:35:52                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.20s           2025-01-31T15:35:51                      10
+/opt/airflow/dags/quarta_dag.py                             1           0  0.19s           2025-01-31T15:35:51                      10
+/opt/airflow/dags/triggerdag1.py    1927  0.02s             1           0  0.12s           2025-01-31T15:35:48                       9
+/opt/airflow/dags/primeira_dag.py                           1           0  0.08s           2025-01-31T15:35:52                      10
+================================================================================
+[2025-01-31T15:36:00.450+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:36:00.492+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2025-01-31T15:36:20.722+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:36:20.731+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2025-01-31T15:36:23.988+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/terceira_dag.py                           1           0  0.22s           2025-01-31T15:36:19                      10
+/opt/airflow/dags/quarta_dag.py                             1           0  0.18s           2025-01-31T15:36:19                      10
+/opt/airflow/dags/triggerdag2.py                            1           0  0.12s           2025-01-31T15:36:21                       9
+/opt/airflow/dags/triggerdag1.py                            1           0  0.10s           2025-01-31T15:36:21                       9
+/opt/airflow/dags/primeira_dag.py                           1           0  0.09s           2025-01-31T15:36:20                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.08s           2025-01-31T15:36:20                      10
+================================================================================
+[2025-01-31T15:36:41.011+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:36:41.035+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2025-01-31T15:36:54.292+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/terceira_dag.py                           1           0  0.16s           2025-01-31T15:36:52                      10
+/opt/airflow/dags/triggerdag2.py    2009  0.02s             1           0  0.14s           2025-01-31T15:36:49                      10
+/opt/airflow/dags/quarta_dag.py                             1           0  0.13s           2025-01-31T15:36:52                      10
+/opt/airflow/dags/triggerdag1.py    2010  0.01s             1           0  0.13s           2025-01-31T15:36:49                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.11s           2025-01-31T15:36:53                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.10s           2025-01-31T15:36:53                      10
+================================================================================
+[2025-01-31T15:37:01.760+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:37:01.781+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2025-01-31T15:37:21.804+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:37:21.811+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2025-01-31T15:37:24.774+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/terceira_dag.py   2047  0.02s             1           0  0.18s           2025-01-31T15:37:19                      10
+/opt/airflow/dags/quarta_dag.py     2048  0.01s             1           0  0.17s           2025-01-31T15:37:19                      10
+/opt/airflow/dags/triggerdag1.py                            1           0  0.16s           2025-01-31T15:37:21                      10
+/opt/airflow/dags/triggerdag2.py                            1           0  0.16s           2025-01-31T15:37:21                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.14s           2025-01-31T15:37:20                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.12s           2025-01-31T15:37:20                      10
+================================================================================
+[2025-01-31T15:37:42.006+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:37:42.020+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2025-01-31T15:37:55.515+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/terceira_dag.py                           1           0  0.24s           2025-01-31T15:37:53                      10
+/opt/airflow/dags/triggerdag2.py    2085  0.03s             1           0  0.20s           2025-01-31T15:37:50                      10
+/opt/airflow/dags/quarta_dag.py                             1           0  0.19s           2025-01-31T15:37:53                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.18s           2025-01-31T15:37:50                      10
+/opt/airflow/dags/triggerdag1.py    2086  0.01s             1           0  0.08s           2025-01-31T15:37:50                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.07s           2025-01-31T15:37:50                      10
+================================================================================
+[2025-01-31T15:38:02.135+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:38:02.148+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2025-01-31T15:38:22.831+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:38:22.848+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2025-01-31T15:38:26.437+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/triggerdag2.py                            1           0  0.36s           2025-01-31T15:38:24                      10
+/opt/airflow/dags/triggerdag1.py                            1           0  0.30s           2025-01-31T15:38:24                      10
+/opt/airflow/dags/terceira_dag.py   2124  0.05s             1           0  0.18s           2025-01-31T15:38:20                      10
+/opt/airflow/dags/quarta_dag.py     2125  0.01s             1           0  0.17s           2025-01-31T15:38:20                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.10s           2025-01-31T15:38:24                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.08s           2025-01-31T15:38:24                      10
+================================================================================
+[2025-01-31T15:38:43.021+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:38:43.035+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2025-01-31T15:38:57.417+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/triggerdag2.py    2162  0.06s             1           0  0.34s           2025-01-31T15:38:51                      10
+/opt/airflow/dags/triggerdag1.py    2163  0.01s             1           0  0.30s           2025-01-31T15:38:51                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.18s           2025-01-31T15:38:54                      10
+/opt/airflow/dags/quarta_dag.py                             1           0  0.15s           2025-01-31T15:38:54                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.09s           2025-01-31T15:38:52                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.09s           2025-01-31T15:38:52                      10
+================================================================================
+[2025-01-31T15:39:03.064+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:39:03.070+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2025-01-31T15:39:23.777+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:39:23.804+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2025-01-31T15:39:28.282+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/triggerdag2.py                            1           0  0.24s           2025-01-31T15:39:25                      10
+/opt/airflow/dags/triggerdag1.py                            1           0  0.19s           2025-01-31T15:39:25                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.10s           2025-01-31T15:39:27                      10
+/opt/airflow/dags/quarta_dag.py                             1           0  0.08s           2025-01-31T15:39:27                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.06s           2025-01-31T15:39:25                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.05s           2025-01-31T15:39:25                      10
+================================================================================
+[2025-01-31T15:39:43.853+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:39:43.859+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2025-01-31T15:39:59.063+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/triggerdag2.py                            1           0  0.26s           2025-01-31T15:39:57                      10
+/opt/airflow/dags/triggerdag1.py                            1           0  0.22s           2025-01-31T15:39:57                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.12s           2025-01-31T15:39:54                      10
+/opt/airflow/dags/quarta_dag.py                             1           0  0.11s           2025-01-31T15:39:54                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.08s           2025-01-31T15:39:58                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.05s           2025-01-31T15:39:58                      10
+================================================================================
+[2025-01-31T15:40:04.510+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:40:04.539+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2025-01-31T15:40:25.014+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:40:25.030+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2025-01-31T15:40:29.453+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/triggerdag2.py                            1           0  0.14s           2025-01-31T15:40:25                      10
+/opt/airflow/dags/triggerdag1.py                            1           0  0.13s           2025-01-31T15:40:25                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.10s           2025-01-31T15:40:27                      10
+/opt/airflow/dags/quarta_dag.py                             1           0  0.10s           2025-01-31T15:40:27                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.09s           2025-01-31T15:40:26                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.06s           2025-01-31T15:40:25                      10
+================================================================================
+[2025-01-31T15:40:45.107+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:40:45.132+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2025-01-31T15:40:59.471+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/terceira_dag.py                           1           0  0.39s           2025-01-31T15:40:55                      10
+/opt/airflow/dags/quarta_dag.py                             1           0  0.31s           2025-01-31T15:40:55                      10
+/opt/airflow/dags/triggerdag2.py                            1           0  0.20s           2025-01-31T15:40:59                      10
+/opt/airflow/dags/triggerdag1.py                            1           0  0.20s           2025-01-31T15:40:59                      10
+/opt/airflow/dags/primeira_dag.py   2322  0.00s             1           0  0.09s           2025-01-31T15:40:53                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.06s           2025-01-31T15:40:59                      10
+================================================================================
+[2025-01-31T15:41:05.122+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:41:05.129+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2025-01-31T15:41:25.131+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:41:25.205+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2025-01-31T15:41:29.844+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/triggerdag2.py                            1           0  0.34s           2025-01-31T15:41:27                      10
+/opt/airflow/dags/triggerdag1.py                            1           0  0.32s           2025-01-31T15:41:27                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.26s           2025-01-31T15:41:28                      10
+/opt/airflow/dags/quarta_dag.py                             1           0  0.22s           2025-01-31T15:41:28                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.17s           2025-01-31T15:41:27                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.16s           2025-01-31T15:41:27                      10
+================================================================================
+[2025-01-31T15:41:45.197+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:41:45.212+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2025-01-31T15:42:00.493+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/triggerdag2.py    2397  0.03s             1           0  0.21s           2025-01-31T15:41:55                      10
+/opt/airflow/dags/triggerdag1.py    2398  0.01s             1           0  0.17s           2025-01-31T15:41:55                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.13s           2025-01-31T15:41:56                      10
+/opt/airflow/dags/quarta_dag.py                             1           0  0.12s           2025-01-31T15:41:56                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.05s           2025-01-31T15:41:55                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.05s           2025-01-31T15:41:55                      10
+================================================================================
+[2025-01-31T15:42:05.912+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:42:05.927+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2025-01-31T15:42:26.696+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:42:26.716+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2025-01-31T15:42:31.269+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/triggerdag2.py                            1           0  0.24s           2025-01-31T15:42:27                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.23s           2025-01-31T15:42:29                      10
+/opt/airflow/dags/triggerdag1.py                            1           0  0.21s           2025-01-31T15:42:27                      10
+/opt/airflow/dags/quarta_dag.py                             1           0  0.20s           2025-01-31T15:42:29                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.14s           2025-01-31T15:42:28                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.07s           2025-01-31T15:42:28                      10
+================================================================================
+[2025-01-31T15:42:46.947+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:42:46.967+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2025-01-31T15:43:01.473+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                            PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/triggerdag2.py                            1           0  0.41s           2025-01-31T15:43:01                      10
+/opt/airflow/dags/triggerdag1.py                            1           0  0.35s           2025-01-31T15:43:01                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.10s           2025-01-31T15:42:56                      10
+/opt/airflow/dags/quarta_dag.py                             1           0  0.10s           2025-01-31T15:42:56                      10
+/opt/airflow/dags/segunda_dag.py    2477  0.00s             1           0  0.05s           2025-01-31T15:42:55                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.05s           2025-01-31T15:42:55                      10
+================================================================================
+[2025-01-31T15:43:06.996+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:43:07.002+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2025-01-31T15:43:27.722+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:43:27.745+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
+[2025-01-31T15:43:32.227+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                          PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+---------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/triggerdag2.py                            1           0  0.23s           2025-01-31T15:43:29                      10
+/opt/airflow/dags/terceira_dag.py                           1           0  0.21s           2025-01-31T15:43:30                      10
+/opt/airflow/dags/triggerdag1.py                            1           0  0.20s           2025-01-31T15:43:29                      10
+/opt/airflow/dags/quarta_dag.py                             1           0  0.17s           2025-01-31T15:43:30                      10
+/opt/airflow/dags/primeira_dag.py                           1           0  0.06s           2025-01-31T15:43:29                      10
+/opt/airflow/dags/segunda_dag.py                            1           0  0.06s           2025-01-31T15:43:29                      10
+================================================================================
+[2025-01-31T15:43:48.716+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-01-31T15:43:48.737+0000] {manager.py:824} INFO - There are 6 files in /opt/airflow/dags
