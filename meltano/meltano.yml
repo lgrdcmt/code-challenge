@@ -1,0 +1,255 @@
+version: 1
+default_environment: dev
+project_id: ed7b2276-d74a-4210-9887-aaeeff5b3a08
+environments:
+- name: dev
+- name: staging
+- name: prod
+plugins:
+  extractors:
+  - name: tap-postgres
+    variant: meltanolabs
+    pip_url: git+https://github.com/MeltanoLabs/tap-postgres.git
+    config:
+      database: northwind
+      # host: host.docker.internal
+      host: localhost
+      port: 5432
+      user: northwind_user
+      password: thewindisblowing
+      filter_schemas: [public]
+
+  - name: tap-postgres_categories
+    inherit_from: tap-postgres
+    select:
+    - public-categories.*
+
+  - name: tap-postgres_customers
+    inherit_from: tap-postgres
+    select:
+    - public-customers.*
+
+
+  - name: tap-postgres_employee_territories
+    inherit_from: tap-postgres
+    select:
+    - public-employee_territories.*
+
+
+  - name: tap-postgres_employees
+    inherit_from: tap-postgres
+    select:
+    - public-employees.*
+
+
+  - name: tap-postgres_orders
+    inherit_from: tap-postgres
+    select:
+    - public-orders.*
+
+
+  - name: tap-postgres_products
+    inherit_from: tap-postgres
+    select:
+    - public-products.*
+
+
+  - name: tap-postgres_region
+    inherit_from: tap-postgres
+    select:
+    - public-region.*
+
+
+  - name: tap-postgres_shippers
+    inherit_from: tap-postgres
+    select:
+    - public-shippers.*
+
+  - name: tap-postgres_suppliers
+    inherit_from: tap-postgres
+    select:
+    - public-suppliers.*
+
+  - name: tap-postgres_territories
+    inherit_from: tap-postgres
+    select:
+    - public-territories.*
+
+
+  - name: tap-postgres_us_states
+    inherit_from: tap-postgres
+    select:
+    - public-us_states.*
+
+  - name: tap-csv
+    variant: meltanolabs
+    pip_url: git+https://github.com/MeltanoLabs/tap-csv.git
+  - name: tap-csv-orderdetails
+    inherit_from: tap-csv
+    config:
+      csv_files_definition: files_def_order_details.json
+
+  - name: tap-csv-files
+    inherit_from: tap-csv
+    config:
+      files:
+      - entity: order_details
+        path: data/csv/$EXEC_DATE/data.csv
+        keys: [order_id, product_id]
+      - entity: categories
+        path: data/postgres/categories/$EXEC_DATE/data.csv
+        keys: [category_id]
+      - entity: customers
+        path: data/postgres/customers/$EXEC_DATE/data.csv
+        keys: [customer_id]
+      - entity: employee_territories
+        path: data/postgres/employee_territories/$EXEC_DATE/data.csv
+        keys: [employee_id, territory_id]
+      - entity: employees
+        path: data/postgres/employees/$EXEC_DATE/data.csv
+        keys: [employee_id]
+      - entity: orders
+        path: data/postgres/orders/$EXEC_DATE/data.csv
+        keys: [order_id]
+      - entity: products
+        path: data/postgres/products/$EXEC_DATE/data.csv
+        keys: [product_id]
+      - entity: region
+        path: data/postgres/region/$EXEC_DATE/data.csv
+        keys: [region_id]
+      - entity: shippers
+        path: data/postgres/shippers/$EXEC_DATE/data.csv
+        keys: [shipper_id]
+      - entity: suppliers
+        path: data/postgres/suppliers/$EXEC_DATE/data.csv
+        keys: [supplier_id]
+      - entity: territories
+        path: data/postgres/territories/$EXEC_DATE/data.csv
+        keys: [territory_id]
+      - entity: us_states
+        path: data/postgres/us_states/$EXEC_DATE/data.csv
+        keys: [state_id]
+
+
+
+  loaders:
+  - name: target-csv
+    variant: meltanolabs
+    pip_url: git+https://github.com/MeltanoLabs/target-csv.git
+    config:
+      destination_path: data/csv/${EXEC_DATE}
+      file_naming_scheme: data.csv
+
+  - name: target-csv-postgres_categories
+    inherit_from: target-csv
+    config:
+      destination_path: data/postgres/categories/${EXEC_DATE}/
+
+  - name: target-csv-postgres_customers
+    inherit_from: target-csv
+    config:
+      destination_path: data/postgres/customers/${EXEC_DATE}/
+
+
+  - name: target-csv-postgres_employee_territories
+    inherit_from: target-csv
+    config:
+      destination_path: data/postgres/employee_territories/${EXEC_DATE}/
+
+
+  - name: target-csv-postgres_employees
+    inherit_from: target-csv
+    config:
+      destination_path: data/postgres/employees/${EXEC_DATE}/
+
+
+  - name: target-csv-postgres_orders
+    inherit_from: target-csv
+    config:
+      destination_path: data/postgres/orders/${EXEC_DATE}/
+
+
+  - name: target-csv-postgres_products
+    inherit_from: target-csv
+    config:
+      destination_path: data/postgres/products/${EXEC_DATE}/
+
+  - name: target-csv-postgres_region
+    inherit_from: target-csv
+    config:
+      destination_path: data/postgres/region/${EXEC_DATE}/
+
+  - name: target-csv-postgres_shippers
+    inherit_from: target-csv
+    config:
+      destination_path: data/postgres/shippers/${EXEC_DATE}/
+
+  - name: target-csv-postgres_suppliers
+    inherit_from: target-csv
+    config:
+      destination_path: data/postgres/suppliers/${EXEC_DATE}/
+
+
+  - name: target-csv-postgres_territories
+    inherit_from: target-csv
+    config:
+      destination_path: data/postgres/territories/${EXEC_DATE}/
+
+  - name: target-csv-postgres_us_states
+    inherit_from: target-csv
+    config:
+      destination_path: data/postgres/us_states/${EXEC_DATE}/
+
+  - name: target-postgres
+    variant: meltanolabs
+    pip_url: meltanolabs-target-postgres
+    config:
+      database: postgres
+      # host: host.docker.internal
+      host: localhost
+      port: 5433
+      user: postgres
+      password: 102030
+      default_target_schema: public
+
+  transformers:
+  - name: dbt-postgres
+    variant: dbt-labs
+    pip_url: dbt-core~=1.3.0 dbt-postgres~=1.3.0
+    config:
+      dbname: postgres
+      # host: host.docker.internal
+      host: localhost
+      port: 5433
+      schema: public
+      user: postgres
+jobs:
+- name: csv_to_csv
+  tasks:
+  - tap-csv-orderdetails target-csv
+- name: postgres_to_csv
+  tasks:
+  - tap-postgres_categories target-csv-postgres_categories
+  - tap-postgres_customers target-csv-postgres_customers
+  - tap-postgres_employee_territories target-csv-postgres_employee_territories
+  - tap-postgres_employees target-csv-postgres_employees
+  - tap-postgres_orders target-csv-postgres_orders
+  - tap-postgres_products target-csv-postgres_products
+  - tap-postgres_region target-csv-postgres_region
+  - tap-postgres_shippers target-csv-postgres_shippers
+  - tap-postgres_suppliers target-csv-postgres_suppliers
+  - tap-postgres_territories target-csv-postgres_territories
+  - tap-postgres_us_states target-csv-postgres_us_states
+- name: files_to_postgres
+  tasks:
+  - tap-csv-files target-postgres
+  - dbt-postgres:run
+schedules:
+- name: daily_to_csv_load
+  interval: '@daily'
+  job: csv_to_csv postgres_to_csv
+- name: daily_to_postgres_load
+  interval: '@daily'
+  job: files_to_postgres
+
+
