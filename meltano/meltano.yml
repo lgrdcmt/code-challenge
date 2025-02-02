@@ -94,40 +94,40 @@ plugins:
     config:
       files:
       - entity: order_details
-        path: data/csv/$EXEC_DATE/data.csv
+        path: ../data/csv/$EXEC_DATE/data.csv
         keys: [order_id, product_id]
       - entity: categories
-        path: data/postgres/categories/$EXEC_DATE/data.csv
+        path: ../data/postgres/categories/$EXEC_DATE/data.csv
         keys: [category_id]
       - entity: customers
-        path: data/postgres/customers/$EXEC_DATE/data.csv
+        path: ../data/postgres/customers/$EXEC_DATE/data.csv
         keys: [customer_id]
       - entity: employee_territories
-        path: data/postgres/employee_territories/$EXEC_DATE/data.csv
+        path: ../data/postgres/employee_territories/$EXEC_DATE/data.csv
         keys: [employee_id, territory_id]
       - entity: employees
-        path: data/postgres/employees/$EXEC_DATE/data.csv
+        path: ../data/postgres/employees/$EXEC_DATE/data.csv
         keys: [employee_id]
       - entity: orders
-        path: data/postgres/orders/$EXEC_DATE/data.csv
+        path: ../data/postgres/orders/$EXEC_DATE/data.csv
         keys: [order_id]
       - entity: products
-        path: data/postgres/products/$EXEC_DATE/data.csv
+        path: ../data/postgres/products/$EXEC_DATE/data.csv
         keys: [product_id]
       - entity: region
-        path: data/postgres/region/$EXEC_DATE/data.csv
+        path: ../data/postgres/region/$EXEC_DATE/data.csv
         keys: [region_id]
       - entity: shippers
-        path: data/postgres/shippers/$EXEC_DATE/data.csv
+        path: ../data/postgres/shippers/$EXEC_DATE/data.csv
         keys: [shipper_id]
       - entity: suppliers
-        path: data/postgres/suppliers/$EXEC_DATE/data.csv
+        path: ../data/postgres/suppliers/$EXEC_DATE/data.csv
         keys: [supplier_id]
       - entity: territories
-        path: data/postgres/territories/$EXEC_DATE/data.csv
+        path: ../data/postgres/territories/$EXEC_DATE/data.csv
         keys: [territory_id]
       - entity: us_states
-        path: data/postgres/us_states/$EXEC_DATE/data.csv
+        path: ../data/postgres/us_states/$EXEC_DATE/data.csv
         keys: [state_id]
 
 
@@ -137,68 +137,68 @@ plugins:
     variant: meltanolabs
     pip_url: git+https://github.com/MeltanoLabs/target-csv.git
     config:
-      destination_path: data/csv/${EXEC_DATE}
+      destination_path: ../data/csv/${EXEC_DATE}
       file_naming_scheme: data.csv
 
   - name: target-csv-postgres_categories
     inherit_from: target-csv
     config:
-      destination_path: data/postgres/categories/${EXEC_DATE}/
+      destination_path: ../data/postgres/categories/${EXEC_DATE}/
 
   - name: target-csv-postgres_customers
     inherit_from: target-csv
     config:
-      destination_path: data/postgres/customers/${EXEC_DATE}/
+      destination_path: ../data/postgres/customers/${EXEC_DATE}/
 
 
   - name: target-csv-postgres_employee_territories
     inherit_from: target-csv
     config:
-      destination_path: data/postgres/employee_territories/${EXEC_DATE}/
+      destination_path: ../data/postgres/employee_territories/${EXEC_DATE}/
 
 
   - name: target-csv-postgres_employees
     inherit_from: target-csv
     config:
-      destination_path: data/postgres/employees/${EXEC_DATE}/
+      destination_path: ../data/postgres/employees/${EXEC_DATE}/
 
 
   - name: target-csv-postgres_orders
     inherit_from: target-csv
     config:
-      destination_path: data/postgres/orders/${EXEC_DATE}/
+      destination_path: ../data/postgres/orders/${EXEC_DATE}/
 
 
   - name: target-csv-postgres_products
     inherit_from: target-csv
     config:
-      destination_path: data/postgres/products/${EXEC_DATE}/
+      destination_path: ../data/postgres/products/${EXEC_DATE}/
 
   - name: target-csv-postgres_region
     inherit_from: target-csv
     config:
-      destination_path: data/postgres/region/${EXEC_DATE}/
+      destination_path: ../data/postgres/region/${EXEC_DATE}/
 
   - name: target-csv-postgres_shippers
     inherit_from: target-csv
     config:
-      destination_path: data/postgres/shippers/${EXEC_DATE}/
+      destination_path: ../data/postgres/shippers/${EXEC_DATE}/
 
   - name: target-csv-postgres_suppliers
     inherit_from: target-csv
     config:
-      destination_path: data/postgres/suppliers/${EXEC_DATE}/
+      destination_path: ../data/postgres/suppliers/${EXEC_DATE}/
 
 
   - name: target-csv-postgres_territories
     inherit_from: target-csv
     config:
-      destination_path: data/postgres/territories/${EXEC_DATE}/
+      destination_path: ../data/postgres/territories/${EXEC_DATE}/
 
   - name: target-csv-postgres_us_states
     inherit_from: target-csv
     config:
-      destination_path: data/postgres/us_states/${EXEC_DATE}/
+      destination_path: ../data/postgres/us_states/${EXEC_DATE}/
 
   - name: target-postgres
     variant: meltanolabs
