@@ -1,6 +1,6 @@
 version: 1
 default_environment: dev
-project_id: 0247f43d-6bf7-49f0-9217-29bbde75405b
+project_id: ed7b2276-d74a-4210-9887-aaeeff5b3a08
 environments:
 - name: dev
 - name: staging
@@ -12,8 +12,8 @@ plugins:
     pip_url: git+https://github.com/MeltanoLabs/tap-postgres.git
     config:
       database: northwind
-      # host: localhost
-      host: host.docker.internal
+      # host: host.docker.internal
+      host: localhost
       port: 5432
       user: northwind_user
       password: thewindisblowing
@@ -65,12 +65,10 @@ plugins:
     select:
     - public-shippers.*
 
-
   - name: tap-postgres_suppliers
     inherit_from: tap-postgres
     select:
     - public-suppliers.*
-
 
   - name: tap-postgres_territories
     inherit_from: tap-postgres
@@ -89,12 +87,7 @@ plugins:
   - name: tap-csv-orderdetails
     inherit_from: tap-csv
     config:
-      files:
-      - entity: order_details
-        path: ../data/order_details.csv
-        keys: [order_id, product_id]
-        delimiter: ','
-
+      csv_files_definition: files_def_order_details.json
 
   - name: tap-csv-files
     inherit_from: tap-csv
@@ -136,6 +129,7 @@ plugins:
       - entity: us_states
         path: ../data/postgres/us_states/$EXEC_DATE/data.csv
         keys: [state_id]
+
 
 
   loaders:
@@ -180,18 +174,15 @@ plugins:
     config:
       destination_path: ../data/postgres/products/${EXEC_DATE}/
 
-
   - name: target-csv-postgres_region
     inherit_from: target-csv
     config:
       destination_path: ../data/postgres/region/${EXEC_DATE}/
 
-
   - name: target-csv-postgres_shippers
     inherit_from: target-csv
     config:
       destination_path: ../data/postgres/shippers/${EXEC_DATE}/
-
 
   - name: target-csv-postgres_suppliers
     inherit_from: target-csv
@@ -204,7 +195,6 @@ plugins:
     config:
       destination_path: ../data/postgres/territories/${EXEC_DATE}/
 
-
   - name: target-csv-postgres_us_states
     inherit_from: target-csv
     config:
@@ -215,8 +205,8 @@ plugins:
     pip_url: meltanolabs-target-postgres
     config:
       database: postgres
-      # host: localhost
-      host: host.docker.internal
+      # host: host.docker.internal
+      host: localhost
       port: 5433
       user: postgres
       password: 102030
@@ -228,8 +218,8 @@ plugins:
     pip_url: dbt-core~=1.3.0 dbt-postgres~=1.3.0
     config:
       dbname: postgres
-      # host: localhost
-      host: host.docker.internal
+      # host: host.docker.internal
+      host: localhost
       port: 5433
       schema: public
       user: postgres
@@ -255,15 +245,11 @@ jobs:
   - tap-csv-files target-postgres
   - dbt-postgres:run
 schedules:
-- name: daily_csv_extract
+- name: daily_to_csv_load
   interval: '@daily'
-  extractor: tap-csv-orderdetails
-  loader: target-csv
-  transform: skip
-  start_date: 2025-02-03 15:51:24
-- name: daily_postgres_to_csv_load
-  interval: '@daily'
-  job: postgres_to_csv
+  job: csv_to_csv postgres_to_csv
 - name: daily_to_postgres_load
   interval: '@daily'
   job: files_to_postgres
+
+
