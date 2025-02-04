@@ -83,6 +83,17 @@ plugins:
     select:
     - public-us_states.*
 
+  - name: tap-postgres-final
+    inherit_from: tap-postgres
+    config:
+      database: postgres
+      host: host.docker.internal
+      port: 5432
+      user: postgres
+      password: 102030
+      select:
+      - public-final.*
+
   - name: tap-csv
     variant: meltanolabs
     pip_url: git+https://github.com/MeltanoLabs/tap-csv.git
@@ -210,6 +221,11 @@ plugins:
     config:
       destination_path: ../data/postgres/us_states/${EXEC_DATE}/
 
+  - name: target-csv-final
+    inherit_from: target-csv
+    config:
+      destination_path: ../output/${EXEC_DATE}/
+
   - name: target-postgres
     variant: meltanolabs
     pip_url: meltanolabs-target-postgres
@@ -254,6 +270,9 @@ jobs:
   tasks:
   - tap-csv-files target-postgres
   - dbt-postgres:run
+- name: export_final
+  tasks:
+  - tap-postgres-final target-csv-final
 schedules:
 - name: daily_csv_extract
   interval: '@daily'
