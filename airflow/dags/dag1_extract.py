@@ -1,19 +1,17 @@
 from airflow import DAG
-from airflow.operators.bash_operator import BashOperator
 from airflow.providers.docker.operators.docker import DockerOperator, Mount
-from datetime import datetime
 from airflow.operators.dagrun_operator import TriggerDagRunOperator
+from datetime import datetime
 
 
 dag = DAG('dag1_extract', description='First DAG using Meltano',
-          schedule_interval=None, start_date=datetime(2025, 2, 1), 
-          catchup=True)
+          schedule_interval='@daily', start_date=datetime(2025, 2, 1), 
+          catchup=True, max_active_runs=1)
 
 
 task1 = DockerOperator(
     task_id="csv_to_csv",
     image="meltano-project:latest",
-    container_name="meltano-project",
     command=["sh", "-c", "meltano --cwd meltano install && meltano --cwd meltano run csv_to_csv"],
     entrypoint=[""],
     api_version="auto",
@@ -29,7 +27,6 @@ task1 = DockerOperator(
 task2 = DockerOperator(
     task_id="postgres_to_csv",
     image="meltano-project:latest",
-    container_name="meltano-project",
     command=["sh", "-c", "meltano --cwd meltano install && meltano --cwd meltano run postgres_to_csv"],
     entrypoint=[""],
     api_version="auto",

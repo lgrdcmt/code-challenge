@@ -1,18 +1,16 @@
 from airflow import DAG
-from airflow.operators.bash_operator import BashOperator
 from airflow.providers.docker.operators.docker import DockerOperator, Mount
 from datetime import datetime
 
 
 dag = DAG('dag2_loadertransform', description='First DAG using Meltano',
           schedule_interval=None, start_date=datetime(2025, 2, 1), 
-          catchup=True)
+          catchup=True, max_active_runs=1)
 
 
 task1 = DockerOperator(
     task_id="loader_transform",
     image="meltano-project:latest",
-    container_name="meltano-project",
     command=["sh", "-c", "meltano --cwd meltano install && meltano --cwd meltano invoke dbt-postgres:build && meltano --cwd meltano run files_to_postgres"],
     entrypoint=[""],
     api_version="auto",
@@ -30,7 +28,6 @@ task1 = DockerOperator(
 task2 = DockerOperator(
     task_id="export_final",
     image="meltano-project:latest",
-    container_name="meltano-project",
     command=["sh", "-c", "meltano --cwd meltano install && meltano --cwd meltano run export_final"],
     entrypoint=[""],
     api_version="auto",

@@ -16348,3 +16348,575 @@ File Path                                  PID    Runtime      # DAGs    # Error
 ================================================================================
 [2025-02-04T12:05:08.459+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
 [2025-02-04T12:05:08.464+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:05:23.969+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.13s           2025-02-04T12:05:22                      10
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.13s           2025-02-04T12:05:22                      10
+================================================================================
+[2025-02-04T12:05:29.123+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:05:29.128+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:05:49.727+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:05:49.733+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:05:53.999+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.13s           2025-02-04T12:05:53                      10
+/opt/airflow/dags/dag1_extract.py          18273  0.13s             1           0  0.11s           2025-02-04T12:05:48                      10
+================================================================================
+[2025-02-04T12:06:10.501+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:06:10.508+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:06:24.020+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.12s           2025-02-04T12:06:23                       9
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.10s           2025-02-04T12:06:19                      10
+================================================================================
+[2025-02-04T12:06:31.178+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:06:31.182+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:06:51.783+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:06:51.788+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:06:54.046+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.23s           2025-02-04T12:06:54                      32
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.12s           2025-02-04T12:06:50                      10
+================================================================================
+[2025-02-04T12:07:12.532+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:07:12.537+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:07:24.876+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.14s           2025-02-04T12:07:21                      10
+/opt/airflow/dags/dag1_extract.py          18326  0.01s             1           0  0.11s           2025-02-04T12:07:19                       9
+================================================================================
+[2025-02-04T12:07:33.187+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:07:33.192+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:07:53.836+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:07:53.841+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:07:55.876+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.11s           2025-02-04T12:07:52                      10
+/opt/airflow/dags/dag1_extract.py          18344  0.01s             1           0  0.10s           2025-02-04T12:07:50                      10
+================================================================================
+[2025-02-04T12:08:14.429+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:08:14.434+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:08:25.994+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.21s           2025-02-04T12:08:22                      34
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.13s           2025-02-04T12:08:24                      10
+================================================================================
+[2025-02-04T12:08:35.319+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:08:35.324+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:08:56.025+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:08:56.030+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:08:56.046+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.14s           2025-02-04T12:08:54                      12
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.12s           2025-02-04T12:08:55                      10
+================================================================================
+[2025-02-04T12:09:16.710+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:09:16.716+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:09:26.095+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.15s           2025-02-04T12:09:25                      12
+/opt/airflow/dags/dag2_loadertransform.py  18397  0.11s             1           0  0.14s           2025-02-04T12:09:20                      10
+================================================================================
+[2025-02-04T12:09:37.462+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:09:37.482+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:09:56.165+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.14s           2025-02-04T12:09:56                      12
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.10s           2025-02-04T12:09:51                      10
+================================================================================
+[2025-02-04T12:09:58.198+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:09:58.249+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:10:18.241+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:10:18.251+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:10:26.458+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.15s           2025-02-04T12:10:23                      12
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.12s           2025-02-04T12:10:23                      10
+================================================================================
+[2025-02-04T12:10:38.822+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:10:38.829+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:10:56.622+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.19s           2025-02-04T12:10:54                      12
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.15s           2025-02-04T12:10:54                      10
+================================================================================
+[2025-02-04T12:10:59.642+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:10:59.647+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:11:20.385+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:11:20.391+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:11:26.634+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.14s           2025-02-04T12:11:25                      12
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.14s           2025-02-04T12:11:25                      10
+================================================================================
+[2025-02-04T12:11:41.128+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:11:41.135+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:11:56.669+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py          18484  0.01s             1           0  0.14s           2025-02-04T12:11:51                      12
+/opt/airflow/dags/dag2_loadertransform.py  18485  0.00s             1           0  0.13s           2025-02-04T12:11:51                      10
+================================================================================
+[2025-02-04T12:12:01.821+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:12:01.825+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:12:22.409+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:12:22.414+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:12:26.694+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.14s           2025-02-04T12:12:22                      12
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.13s           2025-02-04T12:12:22                      10
+================================================================================
+[2025-02-04T12:12:43.218+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:12:43.223+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:12:56.763+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.15s           2025-02-04T12:12:53                      12
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.14s           2025-02-04T12:12:53                      10
+================================================================================
+[2025-02-04T12:13:03.850+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:13:03.858+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:13:24.692+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:13:24.698+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:13:26.859+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.14s           2025-02-04T12:13:24                      12
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.12s           2025-02-04T12:13:24                      10
+================================================================================
+[2025-02-04T12:13:45.380+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:13:45.386+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:13:56.877+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.14s           2025-02-04T12:13:55                      12
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.13s           2025-02-04T12:13:55                      10
+================================================================================
+[2025-02-04T12:14:06.074+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:14:06.078+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:14:26.859+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:14:26.866+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:14:26.884+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py          18572  0.00s             1           0  0.13s           2025-02-04T12:14:21                      11
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.11s           2025-02-04T12:14:25                       9
+================================================================================
+[2025-02-04T12:14:47.505+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:14:47.512+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:14:56.939+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.13s           2025-02-04T12:14:53                      12
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.11s           2025-02-04T12:14:56                      10
+================================================================================
+[2025-02-04T12:15:08.240+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:15:08.264+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:15:26.974+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.15s           2025-02-04T12:15:24                      12
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.11s           2025-02-04T12:15:22                      10
+================================================================================
+[2025-02-04T12:15:28.843+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:15:28.851+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:15:49.611+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:15:49.616+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:15:57.874+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.12s           2025-02-04T12:15:54                       9
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.12s           2025-02-04T12:15:53                      10
+================================================================================
+[2025-02-04T12:16:10.271+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:16:10.276+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:16:27.879+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.13s           2025-02-04T12:16:24                      10
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.12s           2025-02-04T12:16:25                      11
+================================================================================
+[2025-02-04T12:16:30.985+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:16:30.992+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:16:51.707+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:16:51.715+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:16:57.899+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.12s           2025-02-04T12:16:55                       9
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.12s           2025-02-04T12:16:55                      10
+================================================================================
+[2025-02-04T12:17:12.431+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:17:12.435+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:17:27.943+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.13s           2025-02-04T12:17:26                      10
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.13s           2025-02-04T12:17:26                      10
+================================================================================
+[2025-02-04T12:17:33.011+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:17:33.015+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:17:53.787+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:17:53.792+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:17:57.957+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag2_loadertransform.py  18695  0.12s             1           0  0.13s           2025-02-04T12:17:52                      10
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.12s           2025-02-04T12:17:57                      10
+================================================================================
+[2025-02-04T12:18:14.471+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:18:14.477+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:18:28.735+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.13s           2025-02-04T12:18:23                      10
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.13s           2025-02-04T12:18:23                      10
+================================================================================
+[2025-02-04T12:18:35.103+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:18:35.108+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:18:55.863+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:18:55.867+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:18:58.898+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.13s           2025-02-04T12:18:54                      10
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.12s           2025-02-04T12:18:54                      11
+================================================================================
+[2025-02-04T12:19:16.551+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:19:16.564+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:19:29.077+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.17s           2025-02-04T12:19:28                      10
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.12s           2025-02-04T12:19:26                      10
+================================================================================
+[2025-02-04T12:19:37.337+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:19:37.344+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:19:58.068+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:19:58.072+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:19:59.100+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py          18766  0.00s             1           0  0.12s           2025-02-04T12:19:54                      10
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.12s           2025-02-04T12:19:57                      10
+================================================================================
+[2025-02-04T12:20:18.658+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:20:18.662+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:20:29.109+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag2_loadertransform.py  18783  0.11s             1           0  0.12s           2025-02-04T12:20:23                      10
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.12s           2025-02-04T12:20:25                      10
+================================================================================
+[2025-02-04T12:20:39.439+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:20:39.443+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:20:59.234+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.15s           2025-02-04T12:20:55                      10
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.13s           2025-02-04T12:20:56                      10
+================================================================================
+[2025-02-04T12:21:00.240+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:21:00.245+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:21:20.907+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:21:20.912+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:21:29.260+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.12s           2025-02-04T12:21:26                      10
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.12s           2025-02-04T12:21:27                      10
+================================================================================
+[2025-02-04T12:21:41.605+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:21:41.609+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:21:59.324+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.14s           2025-02-04T12:21:58                      10
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.12s           2025-02-04T12:21:57                      10
+================================================================================
+[2025-02-04T12:22:02.261+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:22:02.267+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:22:22.900+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:22:22.905+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:22:30.198+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.14s           2025-02-04T12:22:29                      10
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.12s           2025-02-04T12:22:28                      10
+================================================================================
+[2025-02-04T12:22:43.527+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:22:43.532+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:23:00.208+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py          18871  0.08s             1           0  0.14s           2025-02-04T12:22:55                      10
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.14s           2025-02-04T12:22:59                      10
+================================================================================
+[2025-02-04T12:23:04.234+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:23:04.239+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:23:24.902+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:23:24.908+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:23:30.226+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.13s           2025-02-04T12:23:26                      10
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.12s           2025-02-04T12:23:30                      10
+================================================================================
+[2025-02-04T12:23:45.564+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:23:45.569+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:24:01.046+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.13s           2025-02-04T12:23:57                      10
+/opt/airflow/dags/dag2_loadertransform.py  18906  0.01s             1           0  0.11s           2025-02-04T12:23:55                      10
+================================================================================
+[2025-02-04T12:24:06.197+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:24:06.202+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:24:26.846+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:24:26.852+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:24:32.024+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.11s           2025-02-04T12:24:28                      10
+/opt/airflow/dags/dag2_loadertransform.py  18924  0.01s             1           0  0.11s           2025-02-04T12:24:26                      10
+================================================================================
+[2025-02-04T12:24:47.537+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:24:47.541+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:25:02.996+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.12s           2025-02-04T12:24:58                      10
+/opt/airflow/dags/dag2_loadertransform.py  18941  0.01s             1           0  0.11s           2025-02-04T12:24:57                      10
+================================================================================
+[2025-02-04T12:25:08.134+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:25:08.139+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:25:28.781+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:25:28.787+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:25:33.964+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.12s           2025-02-04T12:25:29                      10
+/opt/airflow/dags/dag2_loadertransform.py  18959  0.01s             1           0  0.11s           2025-02-04T12:25:28                      10
+================================================================================
+[2025-02-04T12:25:49.419+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:25:49.425+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:26:04.828+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.14s           2025-02-04T12:25:59                      10
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.13s           2025-02-04T12:26:00                      10
+================================================================================
+[2025-02-04T12:26:09.994+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:26:09.998+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:26:30.861+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:26:30.877+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:26:35.055+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.13s           2025-02-04T12:26:32                      11
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.11s           2025-02-04T12:26:34                       9
+================================================================================
+[2025-02-04T12:26:51.572+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:26:51.577+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:27:05.098+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                  PID    Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.13s           2025-02-04T12:27:03                      11
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.13s           2025-02-04T12:27:05                      10
+================================================================================
+[2025-02-04T12:27:12.158+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:27:12.163+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:27:32.889+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:27:32.894+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:27:35.946+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.12s           2025-02-04T12:27:35                      12
+/opt/airflow/dags/dag2_loadertransform.py  19031  0.00s             1           0  0.11s           2025-02-04T12:27:30                      10
+================================================================================
+[2025-02-04T12:27:53.499+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:27:53.509+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:28:05.953+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py          19048  0.01s             1           0  0.13s           2025-02-04T12:28:00                      12
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.11s           2025-02-04T12:28:01                      10
+================================================================================
+[2025-02-04T12:28:14.277+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:28:14.282+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:28:35.020+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:28:35.029+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:28:36.067+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py          19067  0.00s             1           0  0.13s           2025-02-04T12:28:31                      12
+/opt/airflow/dags/dag2_loadertransform.py                           1           0  0.12s           2025-02-04T12:28:35                      10
+================================================================================
+[2025-02-04T12:28:55.638+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:28:55.644+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
+[2025-02-04T12:29:06.097+0000] {manager.py:997} INFO - 
+================================================================================
+DAG File Processing Stats
+
+File Path                                    PID  Runtime      # DAGs    # Errors  Last Runtime    Last Run               Last # of DB Queries
+-----------------------------------------  -----  ---------  --------  ----------  --------------  -------------------  ----------------------
+/opt/airflow/dags/dag1_extract.py                                   1           0  0.15s           2025-02-04T12:29:02                      12
+/opt/airflow/dags/dag2_loadertransform.py  19084  0.11s             1           0  0.12s           2025-02-04T12:29:00                      10
+================================================================================
+[2025-02-04T12:29:16.339+0000] {manager.py:821} INFO - Searching for files in /opt/airflow/dags
+[2025-02-04T12:29:16.345+0000] {manager.py:824} INFO - There are 2 files in /opt/airflow/dags
