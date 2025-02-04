@@ -39,7 +39,7 @@ task2 = DockerOperator(
     dag=dag
 )
 
-task3 = TriggerDagRunOperator(task_id='trigger_dag2', trigger_dag_id='dag2_loadertransform', dag=dag)
+task3 = TriggerDagRunOperator(task_id='trigger_dag2', trigger_dag_id='dag2_loadertransform',logical_date="{{ds}}", dag=dag)
 
 
 task1 >> task2  >> task3
