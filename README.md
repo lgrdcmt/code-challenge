@@ -20,7 +20,7 @@ Após instalar o [Docker](https://www.docker.com/), siga os passos abaixo para c
    ./install.sh
    ```
 
-3. Após a execução, acesse o Apache Airflow no navegador (http://localhost:8080) e use as seguintes credenciais para login::
+3. Após a execução, acesse o Apache Airflow no navegador (http://localhost:8080) e use as seguintes credenciais para login:
 - Usuário: airflow
 - Senha: airflow
 
