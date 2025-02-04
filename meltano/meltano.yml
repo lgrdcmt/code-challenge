@@ -271,6 +271,7 @@ jobs:
 - name: files_to_postgres
   tasks:
   - tap-csv-files target-postgres
+  - dbt-postgres:build
   - dbt-postgres:run
 - name: export_final
   tasks:

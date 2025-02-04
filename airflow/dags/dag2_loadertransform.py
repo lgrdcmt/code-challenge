@@ -3,7 +3,7 @@ from airflow.providers.docker.operators.docker import DockerOperator, Mount
 from datetime import datetime
 
 
-dag = DAG('dag2_loadertransform', description='First DAG using Meltano',
+dag = DAG('dag2_loadertransform', description='Second DAG using Meltano',
           schedule_interval=None, start_date=datetime(2025, 2, 1), 
           catchup=True, max_active_runs=1)
 
@@ -11,7 +11,7 @@ dag = DAG('dag2_loadertransform', description='First DAG using Meltano',
 task1 = DockerOperator(
     task_id="loader_transform",
     image="meltano/meltano:v3.6.0-python3.10",
-    command=["sh", "-c", "meltano --cwd meltano run files_to_postgres && meltano --cwd meltano invoke dbt-postgres:build"],
+    command=["sh", "-c", "meltano --cwd meltano run files_to_postgres"],
     entrypoint=[""],
     api_version="auto",
     auto_remove=True,
