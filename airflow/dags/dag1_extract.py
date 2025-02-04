@@ -2,6 +2,7 @@ from airflow import DAG
 from airflow.operators.bash_operator import BashOperator
 from airflow.providers.docker.operators.docker import DockerOperator, Mount
 from datetime import datetime
+from airflow.operators.dagrun_operator import TriggerDagRunOperator
 
 
 dag = DAG('dag1_extract', description='First DAG using Meltano',
@@ -11,7 +12,7 @@ dag = DAG('dag1_extract', description='First DAG using Meltano',
 
 task1 = DockerOperator(
     task_id="csv_to_csv",
-    image="lgrdc/meltano-project:0.0.3",
+    image="lgrdc/meltano-project:0.0.4",
     container_name="meltano-project",
     command=["sh", "-c", "meltano --cwd meltano lock --update --all && meltano --cwd meltano run csv_to_csv"],
     entrypoint=[""],
@@ -27,7 +28,7 @@ task1 = DockerOperator(
 
 task2 = DockerOperator(
     task_id="postgres_to_csv",
-    image="lgrdc/meltano-project:0.0.3",
+    image="lgrdc/meltano-project:0.0.4",
     container_name="meltano-project",
     command=["sh", "-c", "meltano --cwd meltano lock --update --all && meltano --cwd meltano run postgres_to_csv"],
     entrypoint=[""],
@@ -41,7 +42,7 @@ task2 = DockerOperator(
     dag=dag
 )
 
-# task3 = DockerOperator(
+task3 = TriggerDagRunOperator(task_id='trigger_dag2', trigger_dag_id='dag2_loadertransform', dag=dag)
 
 
 task1 >> task2
