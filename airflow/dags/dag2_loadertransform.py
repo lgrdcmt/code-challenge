@@ -11,33 +11,34 @@ dag = DAG('dag2_loadertransform', description='First DAG using Meltano',
 
 task1 = DockerOperator(
     task_id="loader_transform",
-    image="lgrdc/meltano-project:0.0.4",
+    image="meltano-project:latest",
     container_name="meltano-project",
-    command=["sh", "-c", "meltano --cwd meltano lock --update --all && meltano --cwd meltano run files_to_postgres"],
+    command=["sh", "-c", "meltano --cwd meltano install && meltano --cwd meltano invoke dbt-postgres:build && meltano --cwd meltano run files_to_postgres"],
     entrypoint=[""],
     api_version="auto",
     auto_remove=True,
     docker_url="tcp://docker-socket-proxy:2375",
     network_mode="bridge",
     mount_tmp_dir=False,
-    mounts=[Mount(source="/Users/gabriel/Cursos/desafio_indicium/code-challenge", target="/project", type="bind", read_only=False)],
-    environment={"EXEC_DATE": "{{ds}}"},
+    mounts=[Mount(source="/home/gabriel/Downloads/git/code-challenge", target="/project", type="bind", read_only=False)],
+    environment={"EXEC_DATE": "{{ds}}",
+                 "DBT_POSTGRES_PASSWORD":"102030"},
     dag=dag
 )
 
 
 task2 = DockerOperator(
     task_id="export_final",
-    image="lgrdc/meltano-project:0.0.4",
+    image="meltano-project:latest",
     container_name="meltano-project",
-    command=["sh", "-c", "meltano --cwd meltano lock --update --all && meltano --cwd meltano run export_final"],
+    command=["sh", "-c", "meltano --cwd meltano install && meltano --cwd meltano run export_final"],
     entrypoint=[""],
     api_version="auto",
     auto_remove=True,
     docker_url="tcp://docker-socket-proxy:2375",
     network_mode="bridge",
     mount_tmp_dir=False,
-    mounts=[Mount(source="/Users/gabriel/Cursos/desafio_indicium/code-challenge", target="/project", type="bind", read_only=False)],
+    mounts=[Mount(source="/home/gabriel/Downloads/git/code-challenge", target="/project", type="bind", read_only=False)],
     environment={"EXEC_DATE": "{{ds}}"},
     dag=dag
 )

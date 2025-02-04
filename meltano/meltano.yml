@@ -88,11 +88,12 @@ plugins:
     config:
       database: postgres
       host: host.docker.internal
-      port: 5432
+      port: 5433
       user: postgres
       password: 102030
-      select:
-      - public-final.*
+      filter_schemas: [public]
+    select:
+    - public-final.*
 
   - name: tap-csv
     variant: meltanolabs
@@ -221,11 +222,6 @@ plugins:
     config:
       destination_path: ../data/postgres/us_states/${EXEC_DATE}/
 
-  - name: target-csv-final
-    inherit_from: target-csv
-    config:
-      destination_path: ../output/${EXEC_DATE}/
-
   - name: target-postgres
     variant: meltanolabs
     pip_url: meltanolabs-target-postgres
@@ -238,6 +234,12 @@ plugins:
       password: 102030
       default_target_schema: public
 
+  - name: target-jsonl
+    variant: andyh1203
+    pip_url: target-jsonl
+    config:
+      destination_path: ../output/${EXEC_DATE}/
+      custom_name: data
   transformers:
   - name: dbt-postgres
     variant: dbt-labs
@@ -272,7 +274,7 @@ jobs:
   - dbt-postgres:run
 - name: export_final
   tasks:
-  - tap-postgres-final target-csv-final
+  - tap-postgres-final target-jsonl
 schedules:
 - name: daily_csv_extract
   interval: '@daily'
