@@ -5,9 +5,8 @@ docker run --rm -it -v $(pwd):/project -w /project meltano/meltano:v3.6.0-python
 
 
 echo "Gerando imagem docker e iniciando os servicos docker"
+docker compose up -d
 cd airflow
 docker build ./docker-socket-proxy --tag docker-socket-proxy
 docker compose up -d
 cd ..
-docker compose up -d
-
