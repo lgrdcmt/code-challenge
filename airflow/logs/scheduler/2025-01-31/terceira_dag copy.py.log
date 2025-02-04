@@ -1,7 +1,0 @@
-[2025-01-31T01:42:04.857+0000] {processor.py:186} INFO - Started process (PID=3204) to work on /opt/airflow/dags/terceira_dag copy.py
-[2025-01-31T01:42:04.859+0000] {processor.py:914} INFO - Processing file /opt/airflow/dags/terceira_dag copy.py for tasks to queue
-[2025-01-31T01:42:04.876+0000] {logging_mixin.py:190} INFO - [2025-01-31T01:42:04.862+0000] {dagbag.py:588} INFO - Filling up the DagBag from /opt/airflow/dags/terceira_dag copy.py
-[2025-01-31T01:42:05.017+0000] {processor.py:925} INFO - DAG(s) 'terceira_dag' retrieved from /opt/airflow/dags/terceira_dag copy.py
-[2025-01-31T01:42:05.998+0000] {logging_mixin.py:190} INFO - [2025-01-31T01:42:05.973+0000] {dag.py:3239} INFO - Sync 1 DAGs
-[2025-01-31T01:42:06.128+0000] {logging_mixin.py:190} INFO - [2025-01-31T01:42:06.127+0000] {dag.py:4180} INFO - Setting next_dagrun for terceira_dag to None, run_after=None
-[2025-01-31T01:42:06.306+0000] {processor.py:208} INFO - Processing /opt/airflow/dags/terceira_dag copy.py took 1.470 seconds

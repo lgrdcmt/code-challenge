@@ -73,14 +73,10 @@ x-airflow-common:
     # If you want to use it, outcomment it and replace airflow.cfg with the name of your config file
     # AIRFLOW_CONFIG: '/opt/airflow/config/airflow.cfg'
     
-    # NEW CONFIGS
-    # PARA VISUALIZAR A CONFIGURAÇÃO NO WEB SERVER
+    # NEWS CONFIGS
     AIRFLOW__WEBSERVER__EXPOSE_CONFIG: 'true'
-    # PARA ALTERAR O TEMPO PARA PROCESSAR UMA NOVA DAG QUANDO SALVA NA PASTA DAGs
     AIRFLOW__SCHEDULER__MIN_FILE_PROCESS_INTERVAL: 5
-    # PARA ALTERAR O TEMPO DE BUSCA DA NOVA DAG NA PASTA DAGs
     AIRFLOW__SCHEDULER__DAG_DIR_LIST_INTERVAL: 20
-
 
 
   volumes:
@@ -88,6 +84,7 @@ x-airflow-common:
     - ${AIRFLOW_PROJ_DIR:-.}/logs:/opt/airflow/logs
     - ${AIRFLOW_PROJ_DIR:-.}/config:/opt/airflow/config
     - ${AIRFLOW_PROJ_DIR:-.}/plugins:/opt/airflow/plugins
+    - ${MELTANO_PROJECT_ROOT:-.}/:/opt/airflow/meltano
   user: "${AIRFLOW_UID:-50000}:0"
   depends_on:
     &airflow-common-depends-on
@@ -294,6 +291,18 @@ services:
       <<: *airflow-common-depends-on
       airflow-init:
         condition: service_completed_successfully
+
+  docker-socket-proxy:
+    image: docker-socket-proxy:latest
+    environment:
+      CONTAINERS: 1
+      IMAGES: 1
+      AUTH: 1
+      POST: 1
+      VOLUMES: 1
+    privileged: true
+    volumes:
+      - /var/run/docker.sock:/var/run/docker.sock:ro
 
 volumes:
   postgres-db-volume:
