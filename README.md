@@ -12,6 +12,7 @@ pipx install meltano==3.6.0 –python 3.10
 Após a instalação do pacote as seguintes linhas de comando:
 
 chmod +x install.sh
+
 ./install
 
 
