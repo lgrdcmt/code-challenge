@@ -1,15 +1,31 @@
-Bom este é a resolução de um desafio do programa Lighthouse da Indicium.
-E para realizar esse desafio necessitamos de algumas ferramentas como requisitos:
-Docker
+# Desafio Lighthouse - Indicium
 
+Este repositório contém a resolução do desafio do programa **Lighthouse** da **Indicium**.
 
-Após a instalação do pacote as seguintes linhas de comando:
+## Requisitos
 
-chmod +x install.sh
+Antes de executar o projeto, certifique-se de ter o **Docker** instalado em sua máquina.
 
-./install
+## Instalação
 
+Após instalar o [Docker](https://www.docker.com/), siga os passos abaixo para configurar e executar o ambiente:  
 
-Após a execução, acessar com o navegador o endereço http://localhost:8080 e usar airflow para login e senha.
+1. Conceda permissão de execução ao script de instalação:  
+   ```bash
+   chmod +x install.sh
+   ```
 
-OBS.: Antes de executar as dags no apache airflow, alterar o source dentro das dags1 e dags2 para a pasta base do projeto.
+2. Execute o script de instalação:
+   ```bash
+   ./install.sh
+   ```
+
+3. Após a execução, acesse o Apache Airflow no navegador (http://localhost:8080) e use as seguintes credenciais para login::
+- Usuário: airflow
+- Senha: airflow
+
+## Configuração Adicional
+
+Antes de executar as DAGs no Apache Airflow, é necessário ajustar os caminhos dos arquivos de origem:
+
+- Dentro das DAGs dags1 e dags2, altere o parâmetro source para o diretório base do projeto, ou seja alterar o ponto de montagem para acesso do container docker as pastas.
