@@ -11,7 +11,8 @@ pipx install meltano==3.6.0 –python 3.10
 
 Após a instalação do pacote as seguintes linhas de comando:
 
-chmod +x compile.sh
+chmod +x install.sh
+./install
 
 
 Após a execução, acessar com o navegador o endereço http://localhost:8080 e usar airflow para login e senha.
