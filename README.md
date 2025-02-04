@@ -2,27 +2,28 @@
 
 Este repositório contém a resolução do desafio do programa **Lighthouse** da **Indicium**.
 
+
 ## Requisitos
 
 Antes de executar o projeto, certifique-se de ter o **Docker** instalado em sua máquina.
+
 
 ## Instalação
 
 Após instalar o [Docker](https://www.docker.com/), siga os passos abaixo para configurar e executar o ambiente:  
 
-1. Conceda permissão de execução ao script de instalação:  
+
+1. Atribua a permissão de execução ao script e execute:
    ```bash
    chmod +x install.sh
-   ```
-
-2. Execute o script de instalação:
-   ```bash
    ./install.sh
    ```
 
-3. Após a execução, acesse o Apache Airflow no navegador (http://localhost:8080) e use as seguintes credenciais para login:
+
+2. Após a execução, acesse o Apache Airflow no navegador (http://localhost:8080) e use as seguintes credenciais para login:
 - Usuário: airflow
 - Senha: airflow
+
 
 ## Configuração Adicional
 
